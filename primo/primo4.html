@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0505059e;
+            padding: 20px;
+            font-family: Arial;
+        }
+
+        /* Center website */
+        .main {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 50px;
+            word-break: break-all;
+            color: #ffffff;
+        }
+        h2{
+            color: #ffffff;
+        }
+        p{
+            color: #090909;
+        }
+
+        .row {
+            margin: 8px -16px;
+        }
+
+        /* Add padding BETWEEN each column */
+        .row,
+        .row>.column {
+            padding: 8px;
+        }
+
+        /* Create four equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 25%;
+        }
+
+        /* Clear floats after rows */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Content */
+        .content {
+            background-color: white;
+            padding: 10px;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 900px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- MAIN (Center website) -->
+    <div class="main">
+
+        <h1>Faith Janitorial Services</h1>
+        <hr>
+
+        <h2>Commercial and Residential</h2>
+        <p>Resize the browser window to see the responsive effect.</p>
+
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img src="images/292223953_1066783094198459_308497882733919785_n (1).jpg" alt="waxed flooring" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat
+                        nam. Lorem ipsum dolor sit amet, tempor prodesset eos no</p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="images/292223953_1066783094198459_308497882733919785_n (1).jpg" alt="department store floor waxed" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat
+                        nam. Lorem ipsum dolor sit amet, tempor prodesset eos no </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="images/292223953_1066783094198459_308497882733919785_n (1).jpg" alt="Commercial Floor Cleaning" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat
+                        nam. Lorem ipsum dolor sit amet, tempor prodesset eos no </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="images/292223953_1066783094198459_308497882733919785_n (1).jpg" alt="after hours flooring" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas
+                        oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                </div>
+            </div>
+            <!-- END GRID -->
+        </div>
+
+        <div class="content">
+            <img src="images/logo10.jpg" alt="Waxed Flooring" style="width:100%">
+            <h3>Overnite Waxed Flooring</h3>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat
+                nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+            <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat
+                nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+        </div>
+
+        <!-- END MAIN -->
+    </div>
+
+</body>
+
+</html>
